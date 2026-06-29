@@ -9,7 +9,6 @@ from datetime import datetime
 import pandas as pd
 import os
 
-#FOR .CSV SAVING: once the code runs it will automatically save to the the file on the left. You can right click and change the name if needed.
 systemtype=hv.SystemType.DT55XXE
 linktype = hv.LinkType.USB_VCP
 arg = "COM11"
